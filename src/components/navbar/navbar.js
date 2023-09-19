@@ -1,11 +1,10 @@
-import './navbar.css';
-import AnthonyLogo from '../../images/Anthony-logos_transparent.png';
-import { Link } from 'react-router-dom';
+import './navbar.css'
+import Logo from '../../images/Anthony-logos_transparent.png'
 
-const Navbar = () => {
-    <Link className='logo' to='/'>
-        <img src={AnthonyLogo} alt="Logo" />
-    </Link>
-}
+const Navbar = () => (
+    <div className='nav-bar'>
+        <img src={Logo} alt="logo" className="logo-img"></img>
+    </div>
+)
 
 export default Navbar

@@ -32,10 +32,16 @@ function App() {
   console.log(forecast);
 
   return (
-    <div className="container">
-      <Search onSearchChange={handleOnSearchChange} />
-      {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <Forecast data={forecast} />}
+    <div>
+      <Navbar />
+      <div className="title">
+        <div className="container">
+          <h1> Anthony's Weather App </h1> 
+          <Search onSearchChange={handleOnSearchChange} />
+          {currentWeather && <CurrentWeather data={currentWeather} />}
+          {forecast && <Forecast data={forecast} />}
+        </div>
+      </div>
     </div>
   );
 }
