@@ -4,6 +4,7 @@ import CurrentWeather from './components/current-weather/current-weather';
 import Forecast from './components/forecast/forecast';
 import { WEATHER_API_URL, WEATHER_API_KEY } from './api/api';
 import { useState } from 'react';
+import Navbar from './components/navbar/navbar';
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
