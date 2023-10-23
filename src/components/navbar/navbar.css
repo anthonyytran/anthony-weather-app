@@ -13,3 +13,10 @@
     margin: 8px auto;
     width: 80px;
 }
+
+@media (max-width: 700px) {
+  .nav-bar {
+      display: none;
+  }
+}
+
