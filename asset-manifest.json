@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anthony-weather-app/static/css/main.ba66971a.css",
+    "main.css": "/anthony-weather-app/static/css/main.49e7c12c.css",
     "main.js": "/anthony-weather-app/static/js/main.33e74087.js",
     "static/js/787.7940b233.chunk.js": "/anthony-weather-app/static/js/787.7940b233.chunk.js",
     "static/media/Anthony-logos_transparent.png": "/anthony-weather-app/static/media/Anthony-logos_transparent.eb108ae80334fb62c60d.png",
     "index.html": "/anthony-weather-app/index.html",
-    "main.ba66971a.css.map": "/anthony-weather-app/static/css/main.ba66971a.css.map",
+    "main.49e7c12c.css.map": "/anthony-weather-app/static/css/main.49e7c12c.css.map",
     "main.33e74087.js.map": "/anthony-weather-app/static/js/main.33e74087.js.map",
     "787.7940b233.chunk.js.map": "/anthony-weather-app/static/js/787.7940b233.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba66971a.css",
+    "static/css/main.49e7c12c.css",
     "static/js/main.33e74087.js"
   ]
 }
